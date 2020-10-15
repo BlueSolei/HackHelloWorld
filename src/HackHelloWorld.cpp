@@ -1,5 +1,5 @@
 #include "HackHelloWorld.h"
 
-#include <fmt/format.h>
+#include <iostream>
 
-void HackHelloWorld::Do() { fmt::print("HackHelloWorld does something!\n"); }
+void HackHelloWorld::Do() { std::cout << "HackHelloWorld does something!\n"; }
